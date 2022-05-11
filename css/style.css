@@ -1,0 +1,104 @@
+:root {
+    --color-uno : #203239;
+    --color-dos: #E0DDAA;
+    --color-tres: #EEEDDE;
+}
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-dos);
+    font-family: 'Krub', sans-serif;
+}
+
+
+.header {
+    background-color: var(--color-uno);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header h1 {
+    color: var(--color-tres);
+    padding-left: 1rem;
+}
+
+.nav a {
+    color: var(--color-tres);
+    text-decoration: none;
+    padding-right: 1rem;
+}
+.nav a:hover {
+    color: var(--color-dos);
+}
+
+
+
+/*+ Codigo del contenido de la pagina **/
+
+.main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.altura {
+   min-height: 10rem;
+   width: auto;
+}
+.section--sobre-mi {
+    margin-top: 1rem;
+    background-color: var(--color-tres);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;  
+    justify-content: space-around;
+}
+
+.section--sobre-mi img {
+    width:300px;
+    height:300px;
+}
+.section--sobre-mi p {
+    text-align: justify;
+}
+.section--sobre-mi h2 {
+    text-align: center;
+}
+
+.section--habilidades {
+    background-color: var(--color-tres);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section--habilidades img {
+    padding: 1rem;
+    width: 200px;
+    height: 200px;
+}
+
+.section--lenguajes {
+    background-color: var(--color-tres);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.section--lenguajes img {
+    padding: 1rem;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/** Codigo del pie de pagina **/
+.footer {
+    background-color: var(--color-uno);
+    padding: 1rem;
+}
+.footer p {
+    text-align: center;
+    color: var(--color-tres);
+}
